@@ -9,7 +9,7 @@ import {
 import { signOut } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import {  useLocation, useNavigate } from "react-router-dom";
 import { useAppSelector } from "../app/hooks";
 import { changeTheme } from "../app/slices/AuthSlice";
 import {
