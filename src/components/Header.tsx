@@ -65,7 +65,7 @@ export default function Header() {
   const section = [
     {
       items: [
-        <Link to="/">
+        <Link to="/http://instagram.com/jatin_vaishnav__2003">
           <EuiText>
             <h2 style={{ padding: "0 1vw" }}>
               <EuiTextColor color="#0b5cff">Zoom</EuiTextColor>
@@ -134,7 +134,7 @@ export default function Header() {
   const responsiveSection = [
     {
       items: [
-        <Link to="/">
+        <Link to="/http://instagram.com/jatin_vaishnav__2003">
           <EuiText>
             <h2 style={{ padding: "0 1vw" }}>
               <EuiTextColor color="#0b5cff">Zoom</EuiTextColor>
