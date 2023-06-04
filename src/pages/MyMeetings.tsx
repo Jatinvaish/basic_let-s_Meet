@@ -95,26 +95,26 @@ export default function MyMeetings() {
         } else return <EuiBadge color="danger">Cancelled</EuiBadge>;
       },
     },
-    {
-      field: "",
-      name: "Edit",
-      width: "5%",
-      render: (meeting: MeetingType) => {
-        return (
-          <EuiButtonIcon
-            aria-label="meeting-edit"
-            iconType="indexEdit"
-            color="danger"
-            display="base"
-            isDisabled={
-              moment(meeting.meetingDate).isBefore(moment().format("L")) ||
-              !meeting.status
-            }
-            onClick={() => openEditFlyout(meeting)}
-          />
-        );
-      },
-    },
+    // {
+    //   field: "",
+    //   name: "Edit",
+    //   width: "5%",
+    //   render: (meeting: MeetingType) => {
+    //     return (
+    //       <EuiButtonIcon
+    //         aria-label="meeting-edit"
+    //         iconType="indexEdit"
+    //         color="danger"
+    //         display="base"
+    //         isDisabled={
+    //           moment(meeting.meetingDate).isBefore(moment().format("L")) ||
+    //           !meeting.status
+    //         }
+    //         onClick={() => openEditFlyout(meeting)}
+    //       />
+    //     );
+    //   },
+    // },
     {
       field: "meetingId",
       name: "Copy Link",

@@ -68,7 +68,7 @@ export default function Header() {
         <a href="http://instagram.com/jatin_vaishnav__2003" target="_blank" rel="noopener noreferrer">
           <EuiText>
             <h2 style={{ padding: "0 1vw" }}>
-              <EuiTextColor color="#0b5cff">Zoom</EuiTextColor>
+              <EuiTextColor color="#0b5cff">MeeingClass</EuiTextColor>
             </h2>
           </EuiText>
         </a>,

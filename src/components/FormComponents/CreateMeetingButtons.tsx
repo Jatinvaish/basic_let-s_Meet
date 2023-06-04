@@ -12,6 +12,7 @@ function CreateMeetingButtons({
   closeFlyout?: () => {};
 }) {
   const navigate = useNavigate();
+  const key = "YOWAI-MO"
   return (
     <EuiFlexGroup>
       <EuiFlexItem grow={false}>

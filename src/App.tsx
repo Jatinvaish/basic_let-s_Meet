@@ -18,7 +18,7 @@ import Meeting from "./pages/Meeting";
 import MyMeetings from "./pages/MyMeetings";
 import OneOnOneMeeting from "./pages/OneOnOneMeeting";
 import VideoConference from "./pages/VideoConference";
-
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 export default function App() {
   const dispatch = useDispatch();
   const isDarkTheme = useAppSelector((zoomApp) => zoomApp.auth.isDarkTheme);
@@ -72,6 +72,11 @@ export default function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="*" element={<Login />} />
           </Routes>
+          {/* <FloatingWhatsApp phoneNumber={'9664977979'} accountName={'Jatin Vaishnav'} allowEsc
+            allowClickAway
+            notification
+            darkMode={true}
+            notificationSound={true} /> */}
           <EuiGlobalToastList
             toasts={toasts}
             dismissToast={removeToast}
