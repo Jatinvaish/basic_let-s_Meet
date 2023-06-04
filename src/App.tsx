@@ -18,7 +18,6 @@ import Meeting from "./pages/Meeting";
 import MyMeetings from "./pages/MyMeetings";
 import OneOnOneMeeting from "./pages/OneOnOneMeeting";
 import VideoConference from "./pages/VideoConference";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
 export default function App() {
   const dispatch = useDispatch();
   const isDarkTheme = useAppSelector((zoomApp) => zoomApp.auth.isDarkTheme);
