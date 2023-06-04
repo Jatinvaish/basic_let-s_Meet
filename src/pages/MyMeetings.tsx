@@ -45,10 +45,10 @@ export default function MyMeetings() {
     if (userInfo) getMyMeetings();
   }, [userInfo, getMyMeetings]);
 
-  const openEditFlyout = (meeting: MeetingType) => {
-    setShowEditFlyout(true);
-    setEditMeeting(meeting);
-  };
+  // const openEditFlyout = (meeting: MeetingType) => {
+  //   setShowEditFlyout(true);
+  //   setEditMeeting(meeting);
+  // };
 
   const closeEditFlyout = (dataChanged = false) => {
     setShowEditFlyout(false);
